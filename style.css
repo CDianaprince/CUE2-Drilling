@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(227, 221, 221);
+}
+
+
+.header{
+display: flex;
+align-items: center;
+gap:0.5%;
+padding: 5%;
+padding-bottom: 0%;
+
+}
+
+#main{
+  padding: 5%;
+  padding-top: 0%;
+}
+
+#contenido-1{
+  width: 45%;
+  text-align: justify;
+  
+  
+}
+
+#main-btn{
+  margin-top: 2%;
+  padding: 1%;
+  color: rgb(27, 96, 194);
+  border: solid 1px rgb(27, 96, 194);
+  gap: 1%;
+}
+
+.div--form{
+  background-color: rgb(176, 172, 172);
+  padding: 5%;
+  width: 35%;
+  padding-bottom: 5%;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+.div--form__h2{
+  text-align: center;
+  background-color: rgb(176, 172, 172);
+}
+
+.inp1{
+  width: 100%;
+  padding-bottom: 25%;
+  padding-top: 1%;
+  border: none;
+  background-color: rgb(176, 172, 172);
+  border-color: rgb(176, 172, 172); 
+}
+
+.button2{
+
+  padding-top: 25%;
+
+  background-color: rgb(176, 172, 172);
+
+
+  display: flex;
+  gap: 5%;
+
+}
+
+#borrar-nota{
+  margin-top: 2%;
+  padding: 2%;
+  width: 40%;
+  border-radius: 4px;
+  color: rgb(216, 25, 25);
+  border: solid 1px rgb(182, 24, 48);
+  background-color: rgb(176, 172, 172);
+  
+
+}
+
+#agregar-fecha{
+  margin-top: 2%;
+  padding: 2%;
+  width: 40%;
+  border-radius: 4px;
+  color: black;
+  border: solid 1px black;
+  background-color: rgb(176, 172, 172);
+  
+}
+
+
+
+
