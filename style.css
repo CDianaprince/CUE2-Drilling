@@ -49,8 +49,20 @@ padding-bottom: 0%;
 }
 
 .inp1{
-  width: 100%;
+  width: 80%;
+
+  text-align:end;
   padding-bottom: 25%;
+  padding-top: 1%;
+  border: none;
+  background-color: rgb(176, 172, 172);
+  border-color: rgb(176, 172, 172); 
+  padding-left: 20%;
+}
+
+.inp2{
+  width: 100%;
+  
   padding-top: 1%;
   border: none;
   background-color: rgb(176, 172, 172);
@@ -81,6 +93,7 @@ padding-bottom: 0%;
 
 }
 
+
 #agregar-fecha{
   margin-top: 2%;
   padding: 2%;
@@ -92,6 +105,25 @@ padding-bottom: 0%;
   
 }
 
+.div-notas{
+  background-color: rgb(176, 172, 172);
+  text-align: center;
+  border: solid 2px;
+  padding:2%;
+  width: 50%;
 
+  margin-top: 5%;
+  margin-left: 50%;
+  margin-bottom: 5%;
+
+}
+.h2-nota{
+  font-style: italic;
+  
+}
+.p2-nota{
+display: flex;
+align-self: flex-end;
+}
 
 
