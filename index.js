@@ -163,9 +163,9 @@ function agregarNotaDinamico(titulo, nota, fecha) {
   const notaEnHtml = document.createElement('div');
   notaEnHtml.innerHTML = `
     <div class="div-notas">
-      <h2 class="h2-nota">${titulo}</h2><hr>
+      <h2 class="h2-nota">${titulo}</h2> <hr>
       <p class="p1-nota">${nota}</p>
-      <p class="p2-nota">>${fecha}</p>
+      <p class="p2-nota">${fecha}</p>
     
     </div>`
     ;
